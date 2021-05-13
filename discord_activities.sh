@@ -51,4 +51,4 @@ echo "The Link to join the activity is the following:"
 echo ""
 echo "https://discord.gg/"$RESULT
 echo ""
-echo "Script Made by DrKnaw (https://drknaw.eu)"
+echo "(https://drknaw.eu)"
