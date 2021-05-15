@@ -25,7 +25,7 @@ select yn in "YouTube" "Poker Night" "Betrayal" "Fishington" "Other" "Exit"; do
         YouTube ) APP_ID=755600276941176913; break;;
         Poker\ Night )  APP_ID=755827207812677713;  break;;
         Betrayal ) APP_ID=755827207812677713;  break;;
-        Fishington )  echo ''; echo 'Not Implemented Yet';  break;;
+        Fishington )  echo ''; echo 'Not Implemented Yet';;
         Other ) echo ''; echo 'Enter the ID of the Application:'; read; APP_ID=$REPLY; break;;
         Exit ) exit;;
     esac
