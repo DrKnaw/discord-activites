@@ -23,10 +23,10 @@ echo "Wich activity do you want?"
 select yn in "YouTube" "Poker Night" "Betrayal" "Fishington" "Exit"; do
     case $yn in
         YouTube ) APP_ID=755600276941176913; break;;
-        Poker\ Night ) echo ''; echo 'Not Implemented yet';;
-        Betrayal ) echo ''; echo 'Not Implemented yet';;
-        Fishington ) echo ''; echo 'Not Implemented yet';;
-        Other ) echo ''; echo 'Not Implemented yet';;
+        Poker\ Night )  APP_ID=755827207812677713;  break;;
+        Betrayal ) APP_ID=755827207812677713;;  break;;
+        Fishington )  echo ''; echo 'Not Implemented Yet';  break;;
+        Other ) echo ''; echo 'Enter the ID of the Application:'; read; APP_ID=$REPLY; break;;
         Exit ) exit;;
     esac
 done
