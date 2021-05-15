@@ -20,7 +20,7 @@ else
         exit
 fi
 echo "Wich activity do you want?"
-select yn in "YouTube" "Poker Night" "Betrayal" "Fishington" "Exit"; do
+select yn in "YouTube" "Poker Night" "Betrayal" "Fishington" "Other" "Exit"; do
     case $yn in
         YouTube ) APP_ID=755600276941176913; break;;
         Poker\ Night )  APP_ID=755827207812677713;  break;;
