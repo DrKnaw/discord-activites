@@ -1,5 +1,5 @@
 # discord-activities
-a simple bash script to generate invitation links to discord activities. 
+a simple linux bash script to generate invitation links to discord activities. 
 # How to make it work ?
 Just simply run the script by typing 'sh discord-activies.sh' in your terminal and fill the question.
 Put the link in a discord chat and clic on it and voila :D
